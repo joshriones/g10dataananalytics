@@ -29,24 +29,28 @@ bar_chart = alt.Chart(average_duration_df).mark_bar().encode(
     height=300  # Adjust the height
 )
 
+# Convert 'Value' column to categorical with custom order
+value_order = ['High', 'Medium', 'Low']
+df['Value'] = pd.Categorical(df['Value'], categories=value_order, ordered=True)
+
 # Create a bar chart for 'Value (high, medium, low, none)' with color encoding
 value_chart = alt.Chart(df).mark_bar().encode(
-    x=alt.X('Value:N', axis=alt.Axis(labelAngle=0)),
-    y='count()',
+    x=alt.X('Value:N', axis=alt.Axis(labelAngle=0, title='Value'), sort=value_order),
+    y='average(Duration)',  # Change Y-axis to use the "Duration" column
     color='Mood:N',
-    tooltip=['Value', 'Mood']
+    tooltip=['Value', 'Mood', 'average(Duration)']  # Include duration in the tooltip
 ).properties(
-    title=alt.TitleParams(text='Value with Mood Variation', fontSize=20, anchor='middle'),
+    title=alt.TitleParams(text='Average Duration by Value and Mood', fontSize=20, anchor='middle'),  # Update the chart title
     width=600,  # Adjust the width
     height=300  # Adjust the height
 )
 
 # Display the charts using Streamlit
-st.title('Group 10 Merged Dataset')
+st.title('Activity Log - Merged Dataset')
 st.markdown("<p style='margin-bottom:30px'></p>", unsafe_allow_html=True) 
 
 # Display the bar chart for average duration
 st.altair_chart(bar_chart, use_container_width=True)
 
-# Display the bar chart for 'Value (high, medium, low, none)'
+# Display the bar chart for 'Value (High, Medium, Low)'
 st.altair_chart(value_chart, use_container_width=True)
