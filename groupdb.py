@@ -54,3 +54,27 @@ st.altair_chart(bar_chart, use_container_width=True)
 
 # Display the bar chart for 'Value (High, Medium, Low)'
 st.altair_chart(value_chart, use_container_width=True)
+
+selected_mood = st.sidebar.selectbox("Select Mood:", df['Mood'].unique())
+
+# Filter the data based on the selected mood
+filtered_df = df[df['Mood'] == selected_mood]
+
+# Count the occurrences of each combined activity and mood
+activity_counts = filtered_df['Activity Description'].value_counts().reset_index()
+activity_counts.columns = ['Activity', 'Count']
+
+# Create a pie chart
+pie_chart = alt.Chart(activity_counts).mark_arc().encode(
+    theta='Count:Q',
+    color='Activity:N',
+    tooltip=['Activity', 'Count']
+).properties(
+    title=alt.TitleParams(text=f'Activity Distribution for {selected_mood} Mood', fontSize=20, anchor='middle'),
+    width=600,
+    height=600
+).configure_legend(
+    orient='bottom'
+)
+# Display the pie chart for 'Activity Description', 'Duration', and 'Mood' with color encoding
+st.altair_chart(pie_chart, use_container_width=True)
