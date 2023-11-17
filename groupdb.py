@@ -6,8 +6,12 @@ import altair as alt
 data = "Data-Analytics-Merged-CSV.csv"
 df = pd.read_csv(data)
 
+st.title('Team Visual Vista')
+
 # Drop NaN values
 df.dropna(inplace=True)
+
+df
 
 # Calculate average duration per activity type
 average_duration_df = df.groupby('Activity Description')['Duration'].mean().reset_index()
