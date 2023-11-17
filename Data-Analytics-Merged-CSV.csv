@@ -1,0 +1,473 @@
+﻿Date,Activity Description,Duration,Value,Mood
+10/10/23,Eating,0.5,Low,Energized
+10/10/23,Class,2.5,High,Productive
+10/10/23,Entertainment,0.5,Low,Satisfied
+10/10/23,Class,2,High,Productive
+10/10/23,Eating,0.5,Medium,Energized
+10/10/23,Entertainment,1,Low,Satisfied
+10/10/23,Household chores,0.5,Low,Stressed
+10/10/23,Commute,1,Low,Stressed
+10/10/23,Entertainment,0.5,Low,Satisfied
+10/10/23,Class,2.5,High,Productive
+10/10/23,Commute,1,Low,Stressed
+10/10/23,Eating,1,Medium,Energized
+10/10/23,School activities,1,High,Productive
+10/10/23,Entertainment,1,Low,Satisfied
+10/10/23,Sleeping,8,High,Relaxed
+10/10/23,Free time,0.2,Low,Satisfied
+10/10/23,Eating,0.2,Medium,Satisfied
+10/10/23,Commute,0.45,Medium,Relaxed
+10/10/23,Entertainment,0.5,Low,Satisfied
+10/10/23,Class,2.3,High,Stressed
+10/10/23,Commute,1.3,Medium,Relaxed
+10/10/23,Eating,0.3,Low,Relaxed
+10/10/23,School activities,2,Medium,Stressed
+10/10/23,School activities,1.3,High,Stressed
+10/10/23,Eating,0.2,Low,Stressed
+10/10/23,Entertainment,1.3,Low,Satisfied
+10/10/23,School activities,1.5,High,Stressed
+10/10/23,Sleeping,7,Low,Energized
+10/10/23,Sleeping,6.5,High,Satisfied
+10/10/23,Eating,1.5,High,Energized
+10/10/23,Duty hours,4,High,Productive
+10/10/23,Eating,1,Medium,Energized
+10/10/23,Entertainment,1,Medium,Relaxed
+10/10/23,School activities,2.5,High,Productive
+10/10/23,Class,1.5,High,Satisfied
+10/10/23,Eating,1,High,Satisfied
+10/10/23,School activities,3.5,High,Satisfied
+10/10/23,Sleeping,1.5,High,Satisfied
+10/11/23,Sleeping,6.5,High,Satisfied
+10/11/23,Eating,1.5,High,Energized
+10/11/23,Duty hours,4,High,Productive
+10/11/23,Eating,0.5,Medium,Satisfied
+10/11/23,Class,2.5,High,Productive
+10/11/23,Class,2,High,Productive
+10/11/23,Commute,1,Low,Relaxed
+10/11/23,Eating,1.5,Medium,Satisfied
+10/11/23,School activities,2.5,High,Satisfied
+10/11/23,Sleeping,2,High,Satisfied
+10/11/23,Entertainment,2,Low,Relaxed
+10/11/23,Eating,1,Medium,Energized
+10/11/23,Household chores,2,Medium,Productive
+10/11/23,Eating,1,Medium,Energized
+10/11/23,School activities,1,High,Productive
+10/11/23,Entertainment,5,Low,Satisfied
+10/11/23,Eating,1,Medium,Energized
+10/11/23,Entertainment,1.5,Low,Satisfied
+10/11/23,Sleeping,8.5,High,Relaxed
+10/11/23,Free time,0.2,Low,Satisfied
+10/11/23,Entertainment,0.35,Low,Stressed
+10/11/23,Eating,0.2,Low,Stressed
+10/11/23,Entertainment,1,Low,Stressed
+10/11/23,Entertainment,2.1,Low,Stressed
+10/11/23,Entertainment,2,Medium,Satisfied
+10/11/23,Eating,0.3,Low,Stressed
+10/11/23,School activities,5,High,Stressed
+10/11/23,Eating,0.3,Medium,Stressed
+10/11/23,Entertainment,1,Low,Stressed
+10/11/23,Entertainment,1,Low,Stressed
+10/11/23,Entertainment,0.5,Low,Relaxed
+10/11/23,Sleeping,7,Medium,Stressed
+10/12/23,Entertainment,1,Medium,Energized
+10/12/23,Eating,0.5,Medium,Energized
+10/12/23,Class,2.5,High,Productive
+10/12/23,Class,2.5,High,Productive
+10/12/23,Eating,1,Medium,Energized
+10/12/23,School activities,1,High,Productive
+10/12/23,Household chores,0.5,Low,Stressed
+10/12/23,Commute,1,Low,Relaxed
+10/12/23,Class,2.5,High,Productive
+10/12/23,Commute,1.5,Low,Stressed
+10/12/23,Eating,1,Medium,Energized
+10/12/23,Entertainment,1,Low,Satisfied
+10/12/23,Sleeping,8,High,Relaxed
+10/12/23,Free time,0.3,Low,Satisfied
+10/12/23,Eating,0.19,Medium,Satisfied
+10/12/23,Commute,0.45,Low,Relaxed
+10/12/23,Entertainment,0.4,Low,Stressed
+10/12/23,Class,2.3,High,Satisfied
+10/12/23,Commute,1.3,Medium,Relaxed
+10/12/23,Eating,0.3,Low,Stressed
+10/12/23,Class,2,High,Stressed
+10/12/23,Free time,1.3,High,Stressed
+10/12/23,Eating,0.2,Low,Satisfied
+10/12/23,Entertainment,1.3,Low,Stressed
+10/12/23,Eating,0.3,Low,Relaxed
+10/12/23,School activities,2,High,Relaxed
+10/12/23,Sleeping,0.03,Low,Stressed
+10/12/23,Sleeping,7,Low,Relaxed
+10/12/23,Sleeping,6.5,High,Satisfied
+10/12/23,Eating,1.5,Low,Energized
+10/12/23,Duty hours,4,High,Energized
+10/12/23,Eating,1,Medium,Satisfied
+10/12/23,Entertainment,1.5,Low,Relaxed
+10/12/23,School activities,5,High,Productive
+10/12/23,Eating,1.5,High,Satisfied
+10/12/23,Entertainment,3.5,High,Satisfied
+10/12/23,Sleeping,1,High,Satisfied
+10/13/23,Commute,0.5,Low,Relaxed
+10/13/23,Class,2.5,High,Productive
+10/13/23,Entertainment,2,Low,Relaxed
+10/13/23,Eating,0.5,Medium,Energized
+10/13/23,Class,2.5,High,Productive
+10/13/23,Entertainment,1,Low,Satisfied
+10/13/23,Commute,2.5,Low,Stressed
+10/13/23,Eating,1,Medium,Energized
+10/13/23,School activities,2,High,Productive
+10/13/23,Entertainment,2,Low,Satisfied
+10/13/23,Entertainment,1,Low,Relaxed
+10/13/23,Sleeping,8,High,Relaxed
+10/13/23,Free time,0.3,Low,Satisfied
+10/13/23,Eating,0.19,Medium,Stressed
+10/13/23,Commute,0.44,Low,Relaxed
+10/13/23,School activities,2.3,Low,Energized
+10/13/23,Entertainment,2,Low,Stressed
+10/13/23,Entertainment,0.3,Low,Stressed
+10/13/23,Class,1.3,High,Relaxed
+10/13/23,Eating,1,Low,Relaxed
+10/13/23,Class,1.1,High,Satisfied
+10/13/23,Commute,1.2,Low,Stressed
+10/13/23,Eating,0.25,Low,Stressed
+10/13/23,Entertainment,1,Low,Stressed
+10/13/23,Entertainment,1.2,Low,Stressed
+10/13/23,Sleeping,8,Medium,Relaxed
+10/13/23,Sleeping,6.5,High,Satisfied
+10/13/23,Eating,1,High,Energized
+10/13/23,Class,2.5,High,Productive
+10/13/23,Entertainment,1,Low,Relaxed
+10/13/23,Eating,1,Medium,Energized
+10/13/23,School activities,1,Low,Productive
+10/13/23,Duty hours,4,High,Stressed
+10/13/23,Commute,1,Low,Stressed
+10/13/23,Eating,1,High,Energized
+10/13/23,Entertainment,1,Low,Relaxed
+10/13/23,School activities,4,High,Productive
+10/13/23,Sleeping,2,High,Satisfied
+10/14/23,Eating,1,Low,Energized
+10/14/23,School activities,5,High,Stressed
+10/14/23,Eating,1,Medium,Energized
+10/14/23,Entertainment,0.5,Low,Satisfied
+10/14/23,Eating,0.5,Medium,Energized
+10/14/23,School activities,4,High,Productive
+10/14/23,Eating,1,Medium,Energized
+10/14/23,Entertainment,1,Low,Relaxed
+10/14/23,School activities,2,High,Stressed
+10/14/23,Sleeping,7.5,High,Relaxed
+10/14/23,Free time,2,Low,Satisfied
+10/14/23,Eating,0.3,Low,Stressed
+10/14/23,School activities,3,High,Stressed
+10/14/23,Free time,0.1,Low,Relaxed
+10/14/23,Eating,0.2,Low,Stressed
+10/14/23,Entertainment,0.4,Low,Satisfied
+10/14/23,Entertainment,2.3,Low,Satisfied
+10/14/23,Entertainment,2,Low,Stressed
+10/14/23,Eating,0.3,Low,Stressed
+10/14/23,Sleeping,7,Low,Relaxed
+10/14/23,Sleeping,6.5,High,Satisfied
+10/14/23,Eating,1.5,High,Energized
+10/14/23,Duty hours,4,High,Energized
+10/14/23,Eating,0.5,High,Satisfied
+10/14/23,Class,2.5,High,Productive
+10/14/23,Class,2,High,Productive
+10/14/23,Commute,1,Low,Stressed
+10/14/23,Eating,1,Medium,Energized
+10/14/23,Entertainment,1,Low,Relaxed
+10/14/23,School activities,3,High,Productive
+10/14/23,Sleeping,1,High,Satisfied
+10/15/23,Household chores,1,Medium,Relaxed
+10/15/23,Eating,0.5,Medium,Energized
+10/15/23,School activities,3,High,Stressed
+10/15/23,Eating,1,Medium,Energized
+10/15/23,School activities,4,High,Stressed
+10/15/23,Eating,1,Medium,Energized
+10/15/23,Commute,2,Low,Stressed
+10/15/23,School activities,2,High,Relaxed
+10/15/23,Sleeping,6.5,High,Relaxed
+10/15/23,Free time,0.3,Low,Energized
+10/15/23,Eating,0.25,Low,Stressed
+10/15/23,School activities,5,High,Stressed
+10/15/23,Eating,0.19,Low,Stressed
+10/15/23,Entertainment,0.44,Low,Satisfied
+10/15/23,Entertainment,2.3,Low,Stressed
+10/15/23,Free time,2,Low,Relaxed
+10/15/23,Eating,0.3,Low,Stressed
+10/15/23,Sleeping,7,High,Relaxed
+10/15/23,Sleeping,8.5,High,Satisfied
+10/15/23,Eating,1,High,Satisfied
+10/15/23,School activities,2.5,High,Productive
+10/15/23,Eating,1,High,Satisfied
+10/15/23,School activities,4,High,Productive
+10/15/23,Entertainment,1,Low,Relaxed
+10/15/23,Eating,1,High,Satisfied
+10/15/23,School activities,4,High,Productive
+10/15/23,Sleeping,1,High,Satisfied
+10/16/23,Free time,0.4,Low,Relaxed
+10/16/23,Eating,0.2,Medium,Satisfied
+10/16/23,Commute,0.3,Low,Relaxed
+10/16/23,Entertainment,0.25,Low,Satisfied
+10/16/23,Class,2.3,High,Relaxed
+10/16/23,Entertainment,0.3,Low,Stressed
+10/16/23,Class,1.3,High,Energized
+10/16/23,Eating,0.4,Low,Stressed
+10/16/23,Free time,0.2,Low,Relaxed
+10/16/23,Class,1.2,High,Satisfied
+10/16/23,Commute,2.5,Low,Stressed
+10/16/23,Entertainment,1.5,Low,Stressed
+10/16/23,Eating,0.2,Low,Stressed
+10/16/23,Entertainment,2,Low,Stressed
+10/16/23,Sleeping,8,Medium,Relaxed
+10/16/23,Household chores,0.5,Low,Relaxed
+10/16/23,Commute,0.5,Low,Relaxed
+10/16/23,Study,0.5,High,Productive
+10/16/23,Class,2.5,High,Stressed
+10/16/23,Eating,0.5,Medium,Energized
+10/16/23,Study,1.5,High,Productive
+10/16/23,Eating,0.5,Medium,Energized
+10/16/23,Study,0.5,High,Productive
+10/16/23,Class,2,High,Productive
+10/16/23,Class,1.5,High,Productive
+10/16/23,Eating,1,Medium,Energized
+10/16/23,Commute,1,Low,Stressed
+10/16/23,Eating,1,Medium,Energized
+10/16/23,Study,4,High,Productive
+10/16/23,School activities,1,High,Productive
+10/16/23,Sleeping,6,High,Relaxed
+10/16/23,Sleeping,6.5,High,Satisfied
+10/16/23,Eating,1,High,Satisfied
+10/16/23,Class,2.5,High,Productive
+10/16/23,Eating,3,Medium,Satisfied
+10/16/23,Duty hours,4,High,Energized
+10/16/23,Commute,1,Low,Stressed
+10/16/23,Class,2.5,High,Productive
+10/16/23,Eating,2.5,Medium,Satisfied
+10/16/23,Sleeping,1,High,Satisfied
+10/17/23,Free time,0.3,Low,Satisfied
+10/17/23,Eating,0.2,Medium,Satisfied
+10/17/23,Commute,0.5,Low,Relaxed
+10/17/23,Entertainment,0.55,Low,Satisfied
+10/17/23,Class,2.3,High,Relaxed
+10/17/23,Commute,2,Medium,Satisfied
+10/17/23,Eating,0.3,Low,Stressed
+10/17/23,School activities,2,Medium,Energized
+10/17/23,Free time,2.3,High,Stressed
+10/17/23,Eating,0.2,Low,Satisfied
+10/17/23,Entertainment,2.25,Low,Stressed
+10/17/23,Sleeping,7,Low,Relaxed
+10/17/23,Eating,0.5,Medium,Energized
+10/17/23,Study,0.5,High,Productive
+10/17/23,Class,2,High,Productive
+10/17/23,Study,1,High,Productive
+10/17/23,Class,2.5,High,Productive
+10/17/23,Eating,1,Medium,Energized
+10/17/23,Entertainment,5,Low,Relaxed
+10/17/23,Eating,1,Medium,Energized
+10/17/23,Entertainment,2,Low,Satisfied
+10/17/23,Entertainment,3,Low,Relaxed
+10/17/23,Sleeping,9,High,Relaxed
+10/17/23,Sleeping,6.5,High,Satisfied
+10/17/23,Eating,1.5,High,Energized
+10/17/23,Duty hours,4,High,Energized
+10/17/23,Eating,1,Medium,Satisfied
+10/17/23,Entertainment,1,Low,Relaxed
+10/17/23,School activities,3,Medium,Productive
+10/17/23,Sleeping,1,Medium,Satisfied
+10/17/23,Eating,1.5,Medium,Satisfied
+10/17/23,Entertainment,1.5,High,Relaxed
+10/17/23,School activities,2,High,Productive
+10/17/23,Sleeping,1,High,Satisfied
+10/18/23,Free time,0.35,Low,Stressed
+10/18/23,Eating,0.2,Low,Stressed
+10/18/23,Entertainment,3,Low,Satisfied
+10/18/23,Entertainment,1,Low,Satisfied
+10/18/23,Free time,1,Low,Relaxed
+10/18/23,Eating,0.3,Low,Stressed
+10/18/23,School activities,5,High,Stressed
+10/18/23,Eating,0.4,Low,Stressed
+10/18/23,Entertainment,1,Low,Stressed
+10/18/23,Sleeping,7,Medium,Stressed
+10/18/23,Eating,1,Medium,Energized
+10/18/23,Entertainment,1,Low,Relaxed
+10/18/23,Household chores,2,Medium,Stressed
+10/18/23,Eating,1,Medium,Energized
+10/18/23,Entertainment,5,Low,Relaxed
+10/18/23,Eating,1,Medium,Energized
+10/18/23,Study,3,High,Productive
+10/18/23,Entertainment,2,Low,Relaxed
+10/18/23,Sleeping,6,High,Relaxed
+10/18/23,Sleeping,6.5,High,Satisfied
+10/18/23,Eating,1.5,Low,Energized
+10/18/23,Duty hours,4,High,Energized
+10/18/23,Eating,0.5,Low,Satisfied
+10/18/23,Class,2.5,High,Productive
+10/18/23,Class,2,High,Productive
+10/18/23,Commute,1,Low,Stressed
+10/18/23,Eating,1.5,Medium,Satisfied
+10/18/23,School activities,3.5,High,Productive
+10/18/23,Sleeping,1,High,Satisfied
+10/19/23,Eating,0.5,Medium,Energized
+10/19/23,Class,2.5,High,Productive
+10/19/23,Class,2.5,High,Productive
+10/19/23,Eating,1,Medium,Energized
+10/19/23,Study,5,High,Productive
+10/19/23,Eating,1,Medium,Energized
+10/19/23,Study,2,High,Productive
+10/19/23,Sleeping,8,High,Relaxed
+10/19/23,Free time,0.3,Low,Relaxed
+10/19/23,Eating,0.2,Medium,Satisfied
+10/19/23,Commute,0.1,Low,Relaxed
+10/19/23,Commute,0.5,Low,Satisfied
+10/19/23,Class,2.3,High,Satisfied
+10/19/23,Commute,1.3,Medium,Relaxed
+10/19/23,Eating,0.3,Low,Stressed
+10/19/23,School activities,2.3,High,Satisfied
+10/19/23,Free time,1.3,High,Stressed
+10/19/23,Entertainment,1,Low,Stressed
+10/19/23,Eating,0.3,Low,Satisfied
+10/19/23,Entertainment,2,Low,Stressed
+10/19/23,Sleeping,7,Low,Relaxed
+10/19/23,Sleeping,6.5,High,Satisfied
+10/19/23,Eating,1.5,Low,Energized
+10/19/23,Duty hours,4,High,Productive
+10/19/23,Eating,1,Medium,Satisfied
+10/19/23,School activities,3.5,Medium,Productive
+10/19/23,Class,0.5,High,Productive
+10/19/23,Commute,1,Low,Stressed
+10/19/23,Eating,1.5,High,Satisfied
+10/19/23,School activities,3.5,Medium,Satisfied
+10/19/23,Sleeping,1,High,Satisfied
+10/20/23,Household chores,1,Low,Stressed
+10/20/23,Commute,1,Low,Relaxed
+10/20/23,Class,2.5,High,Productive
+10/20/23,Study,1,High,Productive
+10/20/23,Eating,1,Medium,Energized
+10/20/23,Study,1,High,Productive
+10/20/23,Class,2.5,High,Productive
+10/20/23,Commute,2,Low,Stressed
+10/20/23,Sleeping,2,High,Relaxed
+10/20/23,Eating,1,Medium,Energized
+10/20/23,Entertainment,1,Low,Satisfied
+10/20/23,School activities,2,High,Stressed
+10/20/23,Sleeping,9,High,Relaxed
+10/20/23,Eating,0.2,Low,Satisfied
+10/20/23,Commute,0.5,Low,Relaxed
+10/20/23,School activities,2.3,High,Energized
+10/20/23,Entertainment,2.3,Low,Stressed
+10/20/23,Class,1.3,High,Relaxed
+10/20/23,Eating,1,Low,Stressed
+10/20/23,Class,1.1,High,Satisfied
+10/20/23,Commute,2,Low,Stressed
+10/20/23,Free time,2,Low,Stressed
+10/20/23,Eating,0.3,Low,Stressed
+10/20/23,Entertainment,1.3,Low,Stressed
+10/20/23,Entertainment,1,Low,Stressed
+10/20/23,Sleeping,8,Medium,Relaxed
+10/20/23,Sleeping,6.5,High,Satisfied
+10/20/23,Eating,1,Low,Energized
+10/20/23,Class,2.5,High,Productive
+10/20/23,Entertainment,2,Low,Relaxed
+10/20/23,Eating,1,Medium,Satisfied
+10/20/23,Duty hours,4,High,Productive
+10/20/23,School activities,1,Low,Satisfied
+10/20/23,Class,1,High,Satisfied
+10/20/23,Commute,1,Low,Stressed
+10/20/23,Eating,1,Medium,Energized
+10/20/23,Entertainment,2,Low,Relaxed
+10/20/23,Sleeping,1,High,Satisfied
+10/21/23,Free time,1.5,Low,Satisfied
+10/21/23,Eating,0.25,Low,Relaxed
+10/21/23,School activities,3,High,Stressed
+10/21/23,Free time,0.1,Low,Relaxed
+10/21/23,Eating,0.2,Low,Satisfied
+10/21/23,Entertainment,0.5,Low,Satisfied
+10/21/23,Entertainment,2.3,Low,Satisfied
+10/21/23,Entertainment,2,Low,Stressed
+10/21/23,Eating,0.3,Low,Satisfied
+10/21/23,Entertainment,1.3,Low,Stressed
+10/21/23,Sleeping,7,Low,Relaxed
+10/21/23,Sleeping,6.5,High,Satisfied
+10/21/23,Eating,1.5,Low,Energized
+10/21/23,Duty hours,4,High,Productive
+10/21/23,Eating,0.5,Medium,Satisfied
+10/21/23,Commute,0.5,Low,Stressed
+10/21/23,Entertainment,2,Low,Relaxed
+10/21/23,Sleeping,2,Medium,Satisfied
+10/21/23,Commute,1,Low,Stressed
+10/21/23,Eating,1.5,High,Satisfied
+10/21/23,School activities,3.5,Medium,Satisfied
+10/21/23,Sleeping,1,High,Satisfied
+10/21/23,Eating,1,Medium,Energized
+10/21/23,Entertainment,5,Low,Satisfied
+10/21/23,Entertainment,2,Low,Satisfied
+10/21/23,Entertainment,1,Medium,Energized
+10/21/23,Entertainment,2,Low,Satisfied
+10/21/23,Eating,1,Medium,Energized
+10/21/23,Entertainment,1,Low,Satisfied
+10/21/23,School activities,4,High,Productive
+10/21/23,Sleeping,8,High,Relaxed
+10/22/23,Eating,1,Medium,Energized
+10/22/23,Entertainment,1,Medium,Energized
+10/22/23,Household chores,2,Medium,Stressed
+10/22/23,Eating,1,Medium,Energized
+10/22/23,Study,2,High,Productive
+10/22/23,Entertainment,2,Low,Satisfied
+10/22/23,Eating,0.5,Medium,Energized
+10/22/23,Household chores,1,Medium,Satisfied
+10/22/23,Commute,2,Low,Relaxed
+10/22/23,Entertainment,1,Low,Relaxed
+10/22/23,Sleeping,7.5,High,Relaxed
+10/22/23,Sleeping,8.5,High,Satisfied
+10/22/23,Entertainment,2.5,Low,Satisfied
+10/22/23,Household chores,1,Medium,Satisfied
+10/22/23,Entertainment,6,Low,Satisfied
+10/22/23,Eating,1.5,High,Satisfied
+10/22/23,Entertainment,3.5,Medium,Satisfied
+10/22/23,Sleeping,1,High,Satisfied
+10/22/23,Free time,0.3,Low,Energized
+10/22/23,Eating,0.25,Low,Relaxed
+10/22/23,School activities,5,High,Stressed
+10/22/23,Eating,0.3,Low,Relaxed
+10/22/23,Entertainment,1,Low,Satisfied
+10/22/23,Entertainment,2.3,Low,Stressed
+10/22/23,Free time,2,Low,Relaxed
+10/22/23,Eating,0.3,Low,Relaxed
+10/22/23,Entertainment,2,Low,Satisfied
+10/22/23,Sleeping,7,Medium,Relaxed
+10/23/23,Sleeping,6.5,High,Satisfied
+10/23/23,Eating,1,Low,Energized
+10/23/23,Class,2.5,High,Productive
+10/23/23,Entertainment,2,Low,Relaxed
+10/23/23,Eating,1,Medium,Satisfied
+10/23/23,Duty hours,4,High,Productive
+10/23/23,Commute,1,Low,Stressed
+10/23/23,Class,2.5,High,Productive
+10/23/23,Eating,2.5,Medium,Energized
+10/23/23,Sleeping,1,High,Satisfied
+10/23/23,Eating,0.5,Medium,Energized
+10/23/23,Household chores,0.5,Low,Relaxed
+10/23/23,Commute,0.5,Low,Relaxed
+10/23/23,Class,2.5,High,Productive
+10/23/23,Entertainment,2,Low,Relaxed
+10/23/23,Eating,0.5,Medium,Energized
+10/23/23,Class,2.5,High,Productive
+10/23/23,Class,1.5,High,Productive
+10/23/23,Commute,1,Low,Stressed
+10/23/23,Eating,0.5,Medium,Energized
+10/23/23,School activities,2,High,Productive
+10/23/23,Eating,1,Medium,Energized
+10/23/23,Entertainment,1,Low,Relaxed
+10/23/23,Sleeping,8,High,Relaxed
+10/23/23,Free time,0.5,Low,Satisfied
+10/23/23,Eating,0.25,Low,Relaxed
+10/23/23,Commute,0.1,Low,Satisfied
+10/23/23,Commute,1,Low,Satisfied
+10/23/23,Class,2.3,High,Satisfied
+10/23/23,School activities,5,High,Stressed
+10/23/23,Class,1.3,High,Relaxed
+10/23/23,School activities,1,High,Stressed
+10/23/23,Class,2,Low,Satisfied
+10/23/23,Commute,1.3,Low,Satisfied
+10/23/23,Free time,2,Low,Relaxed
+10/23/23,Eating,0.3,Low,Stressed
+10/23/23,School activities,2,High,Stressed
+10/23/23,Sleeping,7,High,Relaxed
