@@ -21,7 +21,8 @@ average_duration_df = df.groupby('Activity Description')['Duration'].mean().rese
 average_duration_df = average_duration_df.sort_values(by='Duration', ascending=False)
 
 # Define a color scale
-color_scale = alt.Scale(domain=average_duration_df['Activity Description'].unique(), range=['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
+color_scale = alt.Scale(domain=average_duration_df['Activity Description'].unique(),
+                        range=['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
 
 # Create bar chart for average duration with color encoding
 bar_chart = alt.Chart(average_duration_df).mark_bar().encode(
@@ -53,10 +54,24 @@ value_chart = alt.Chart(average_value_duration_df).mark_bar().encode(
     height=300
 )
 
-# Display the charts using Streamlit in a horizontal layout
-st.title('Activity Log - Merged Dataset')
+# Display the average duration values horizontally
+average_sleep_duration = df[df['Activity Description'] == 'Sleeping']['Duration'].mean()
+average_activity_duration = df[df['Activity Description'] == 'School activities']['Duration'].mean()
+average_entertainment_duration = df[df['Activity Description'] == 'Entertainment']['Duration'].mean()
 
-# Use Streamlit columns to display the charts side by side
+# Display boxes for average durations
+st.markdown("<h1 style='text-align: center;'>Average Durations</h1>", unsafe_allow_html=True)
+st.markdown(
+    f"<p style='text-align: center;'><strong>Average Sleep Duration:</strong> {round(average_sleep_duration, 2)} hours</p>",
+    unsafe_allow_html=True)
+st.markdown(
+    f"<p style='text-align: center;'><strong>Average School Activity Duration:</strong> {round(average_activity_duration, 2)} hours</p>",
+    unsafe_allow_html=True)
+st.markdown(
+    f"<p style='text-align: center;'><strong>Average Entertainment Duration:</strong> {round(average_entertainment_duration, 2)} hours</p>",
+    unsafe_allow_html=True)
+
+# Display the charts using Streamlit in a horizontal layout
 col1, col2 = st.columns(2)
 
 # Display the bar chart for average duration in the first column
@@ -65,31 +80,29 @@ col1.altair_chart(bar_chart, use_container_width=True)
 # Display the bar chart for 'Value (High, Medium, Low)' in the second column
 col2.altair_chart(value_chart, use_container_width=True)
 
-selected_mood = st.sidebar.selectbox("Select Mood:", df['Mood'].unique())
+# Create and display pie charts for all moods in a horizontal line
+moods = df['Mood'].unique()
+pie_charts = []
 
-# Filter the data based on the selected mood
-filtered_df = df[df['Mood'] == selected_mood]
+for mood in moods:
+    filtered_df = df[df['Mood'] == mood]
+    activity_counts = filtered_df['Activity Description'].value_counts().reset_index()
+    activity_counts.columns = ['Activity', 'Count']
 
-# Count the occurrences of each combined activity and mood
-activity_counts = filtered_df['Activity Description'].value_counts().reset_index()
-activity_counts.columns = ['Activity', 'Count']
+    # Sort by 'Count' in ascending order
+    activity_counts = activity_counts.sort_values(by='Count', ascending=True)
 
-# Sort activity_counts in ascending order
-activity_counts = activity_counts.sort_values(by='Count', ascending=True)
+    pie_chart = alt.Chart(activity_counts).mark_arc().encode(
+        theta='Count:Q',
+        color='Activity:N',
+        tooltip=['Activity', 'Count']
+    ).properties(
+        title=alt.TitleParams(text=f'{mood} Mood', fontSize=20, anchor='middle'),
+        width=200,
+        height=200
+    )
 
-# Create a pie chart
-pie_chart = alt.Chart(activity_counts).mark_arc().encode(
-    theta='Count:Q',
-    color='Activity:N',
-    tooltip=['Activity', 'Count']
-).properties(
-    title=alt.TitleParams(text=f'Activity Distribution for {selected_mood} Mood', fontSize=20, anchor='middle'),
-    width=600,
-    height=600
-).configure_legend(
-    orient='bottom'
-)
+    pie_charts.append(pie_chart)
 
-# Display the pie chart for 'Activity Description', 'Duration', and 'Mood' with color encoding
-st.altair_chart(pie_chart, use_container_width=True)
-
+# Display the pie charts for all moods in a horizontal line
+st.altair_chart(alt.hconcat(*pie_charts), use_container_width=True)
